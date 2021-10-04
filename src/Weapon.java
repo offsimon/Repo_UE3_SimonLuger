@@ -18,6 +18,11 @@ public class Weapon {
         this.value = value;
     }
 
+    /*
+    Comparator<Weapon> byDamage =
+    (Weapon o1, Weapon o2) -> o1.getDamage() - o2.getDamage;
+    */
+
     public String getName() {
         return name;
     }
